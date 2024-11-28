@@ -1,0 +1,41 @@
+# Local .terraform directories
+**/.terraform/*
+**/.vscode/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+.vscode/settings.json
+
+GITLAB_ACCESS_TOKEN
+.terraform.lock.hcl
+.terraform/
+.terraform/*
+.terraform
+*.out
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+terragrunt
+terragrunt.iml
+.terragrunt-cache
+
+kubeconfig_*
+kubeconfig
+
+.*.sw?
+.idea
+vendor
+.vscode
+.monokle
+.bundle
+.ruby-version
+
+# Crash log files
+crash.log
+
+.DS_Store
+
+nohup.out
